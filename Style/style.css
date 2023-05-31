@@ -1,21 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500&display=swap');
+
 :root{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://i.postimg.cc/K8sHQLMP/rgb-bg.jpg);
+    background-image: url(https://i.postimg.cc/cCdNMP65/comic-bg-yell-pink.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 #intro{
-    color: rgb(107, 155, 59);
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 160px;
-    padding-top:50px;
+    font-size: 12rem;
+    font-family:cursive;
 }
+#intro2{
+font-style:italic;
+color: rgb(0, 0, 0);
+/* text-decoration: underline; */
+font-family: 'Caveat', cursive;
+padding-top: 20%;
+
+}
+
 .card{
     width: 20rem;
-    background-color: darkcyan;
+    background-color: rgba(230, 226, 226, 0.973);
+    /* text-align: center; */
+    color: black;
+    font-weight:bolder;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 9px 9px rgba(0, 0, 0, 0.788);
+}
+.card:hover{
+    transform: translateY(70px);
+    box-shadow: 30px 10px rgb(0, 0, 0);
+}
+.card-img-top{
+    width: 15rem;
+    /* padding-left: 50px; */
+    
+}
+footer{
+    position: sticky;
+    background-color: rgb(222, 229, 234);
 }
