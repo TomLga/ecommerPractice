@@ -1,8 +1,5 @@
-// home page 
-document.getElementById("intro").innerHTML = "GEN-TECH";
 
 //products
-
 let products = [
     {
      id: 1,
@@ -58,9 +55,8 @@ let products = [
 //     </div>
 //     `
 // })
-  
+
 let shop = document.querySelector(".pacman");
-shop.innerHTML = "<p>Hello </p>"
 products.forEach((thing)=> {
     shop.innerHTML += `
     <div class="card">
@@ -68,8 +64,11 @@ products.forEach((thing)=> {
     <div class="card-body">
       <h5 class="card-title">${thing.title}</h5>
       <p class="card-text">${thing.info}</p>
+      <p>${thing.price}</p>
     </div>
     </div>
     `
  })
    
+// home page 
+// document.getElementById("intro").innerHTML = "<p>GEN-TECH</p>";
